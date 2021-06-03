@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    display: block;
+}
+body{
+    font-family: Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    height: 100%;
+    width: 60%;
+    background-color: #00698c;
+}
+.main{
+    width: 960px;
+    background-repeat: repeat-x;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px;
+    background-color: #FFFFFF;
+    margin: 25px auto;
+    border: 1px solid #000000;
+    text-align: left;
+    background-image: url("http://lugaprop.com.ua/image/header-bg.png");
+}
+header{
+    height: 120px;
+    width: 100%;
+    margin: 20px;
+}
+.main{
+    position: absolute;
+    right: 100px;
+    left: 100px;
+    border: 2px solid black;
+}
+p{
+    line-height: 150%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.contacts{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    float: right;
+    line-height: 19px;
+    padding: 0 20px;
+}
+aside{
+    float: left;
+    width: 20%;
+    padding: 15px 10px 15px 20px;
+}
+aside a{
+    color: black;
+}
+article{
+    float: right;
+    width: 680px;
+    padding: 0 20px;
+}
+nav ul li{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    margin: 10px 0;
+
+}
+nav ul{
+    padding-left: 20px;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li a:hover{
+    text-decoration: underline;
+    font-size: 16px;
+}
+article img{
+    width: 40%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 5px solid #00698c;
+}
+footer {
+    font-size: 13px;
+    background: #DDDDDD;
+    height: 90px;
+    float: right;
+    width: 930px;
+    padding: 0 10px 0 20px;
+
+}
+footer p{
+    margin: 8px;
+}
